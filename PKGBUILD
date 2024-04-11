@@ -24,12 +24,6 @@ pkgver() {
       | sed -E 's/^[^0-9]*//;s/([^-]*-g)/r\1/;s/-/./g'
 }
 
-prepare() {
-	cd "${srcdir}/${_pkgname}"
-
-	patch -Np1 < nix/cmake.patch
-}
-
 build() {
 	cd "${srcdir}/${_pkgname}"
 
