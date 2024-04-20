@@ -7,7 +7,7 @@ pkgrel=1
 pkgdesc=" Hyprland's GPU-accelerated screen locking utility "
 arch=(any)
 url="https://github.com/hyprwm/hyprlock"
-license=('BSD')
+license=('BSD-3-Clause')
 depends=('wayland' 'hyprlang>=0.4.0' 'cairo' 'pango' 'pam' 'libxkbcommon' 'libglvnd' 'libdrm' 'mesa')
 makedepends=('git' 'cmake' 'ninja' 'gcc' 'gdb' 'meson' 'wayland-protocols' 'xorgproto' 'patch')
 source=("${_pkgname}::git+https://github.com/hyprwm/hyprlock.git")
