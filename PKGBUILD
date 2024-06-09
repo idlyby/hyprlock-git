@@ -2,13 +2,13 @@
 
 _pkgname="hyprlock"
 pkgname="${_pkgname}-git"
-pkgver=0.2.0.r20.g2448774d
+pkgver=0.3.0.r21.g386a1e6f
 pkgrel=1
 pkgdesc=" Hyprland's GPU-accelerated screen locking utility "
 arch=(any)
 url="https://github.com/hyprwm/hyprlock"
 license=('BSD-3-Clause')
-depends=('wayland' 'hyprlang>=0.4.0' 'cairo' 'pango' 'pam' 'libxkbcommon' 'libglvnd' 'libdrm' 'mesa' 'libjpeg' 'libwebp')
+depends=('wayland' 'hyprlang>=0.4.0' 'cairo' 'pango' 'pam' 'libxkbcommon' 'libglvnd' 'libdrm' 'mesa' 'libjpeg' 'libwebp' 'hyprutils' 'file')
 makedepends=('git' 'cmake' 'gcc' 'wayland-protocols' 'xorgproto')
 source=("${_pkgname}::git+https://github.com/hyprwm/hyprlock.git")
 conflicts=("${_pkgname}")
