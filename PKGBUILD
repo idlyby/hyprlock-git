@@ -1,4 +1,5 @@
-# Maintainer: alba4k <blaskoazzolaaaron@gmail.com>
+# Maintainer: Edward Davis <idlyby@proton.me>
+# Contributor: alba4k <blaskoazzolaaaron@gmail.com>
 
 _pkgname="hyprlock"
 pkgname="${_pkgname}-git"
